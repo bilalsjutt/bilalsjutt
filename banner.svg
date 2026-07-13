@@ -1,0 +1,33 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0E14"/>
+      <stop offset="100%" stop-color="#161B24"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFD23F"/>
+      <stop offset="100%" stop-color="#FFB000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- outer terminal window -->
+  <rect x="1" y="1" width="1198" height="238" rx="14" fill="url(#bg)" stroke="#262B36" stroke-width="2"/>
+
+  <!-- title bar -->
+  <path d="M1 15 A14 14 0 0 1 15 1 H1185 A14 14 0 0 1 1199 15 V37 H1 Z" fill="#12161F"/>
+  <circle cx="28" cy="19" r="6" fill="#FF5F56"/>
+  <circle cx="50" cy="19" r="6" fill="#FFBD2E"/>
+  <circle cx="72" cy="19" r="6" fill="#27C93F"/>
+  <text x="600" y="24" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#5A6272" text-anchor="middle">bilal@ai-engineer — zsh</text>
+
+  <!-- chunky shadow + main title -->
+  <text x="604" y="140" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="72" font-weight="800" letter-spacing="6" fill="#8A5A00" text-anchor="middle">AI ENGINEER</text>
+  <text x="600" y="136" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="72" font-weight="800" letter-spacing="6" fill="url(#titleGrad)" text-anchor="middle">AI ENGINEER</text>
+
+  <!-- subtitle, terminal prompt style -->
+  <text x="600" y="182" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="18" fill="#22D3EE" text-anchor="middle">&gt; memory systems · ai red teaming · context engineering<tspan fill="#FFD23F">_</tspan></text>
+
+  <!-- hairline + footer -->
+  <line x1="60" y1="205" x2="1140" y2="205" stroke="#262B36" stroke-width="1"/>
+  <text x="600" y="224" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="12" fill="#4B5262" text-anchor="middle">building KortexMail · agent harnesses · AI security research</text>
+</svg>
